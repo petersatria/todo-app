@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #F4F4F4;
+	font-family: 'Poppins';
+	font-style: normal;
+}
+
+.date {
+	font-weight: 500;
+	font-size: 14px;
+	color: #888;
+	margin: 0;
+}
+
+.todo-activity-empty {
+	width: 40em;
+	height: 30em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../assets/img/empty-state.svg');
+}
+
+.todo-empty-state {
+	width: 40em;
+	height: 30em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../assets/img/todo-empty-state.svg');
+}
+
+.todo-icon-plus {
+	width: 3.2vh;
+	height: 3.2vh;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../assets/icon/plus.svg');
+}
+
+.todo-icon-trash {
+	width: 2.5vh;
+	height: 2.8vh;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../assets/icon/trash.svg');
+}
+
+.todo-edit-item {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../assets/icon/edit-item.svg');
+}
+
+.todo-edit-title {
+	width: 3.5vh;
+	height: 3.8vh;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../assets/icon/edit-title.svg');
+}
+
+.todo-back-button {
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../assets/icon/back-button.svg');
+}
+
+.close-button {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../assets/icon/close-button.svg');
+}
+
+.modal-delete-icon {
+	width: 84px;
+	height: 84px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../assets/icon/modal-delete-icon.svg');
+}
+
+.modal-delete {
+	width: 490px;
+	height: 355px;
+}
